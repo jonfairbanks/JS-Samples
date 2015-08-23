@@ -4,7 +4,7 @@ console.log("Is it Friday yet..?")
 var currentDate = new Date()
 
 if (currentDate.getDay() == 5){
-    console.log("Yep!");
+    setTimeout(function(){console.log("Yep!");}, 1500);
 } else {
-    console.log("Nope."); 
+    setTimeout(function(){console.log("Nope.");}, 1500);
 }
