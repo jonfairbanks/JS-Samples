@@ -1,4 +1,4 @@
-/* Simple Node.js Program */
+/* Logic inspired by http://isitfridayyet.net/ */
 console.log("Is it Friday yet..?")
 
 var currentDate = new Date()
